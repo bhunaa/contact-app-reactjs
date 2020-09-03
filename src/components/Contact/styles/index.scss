@@ -1,0 +1,234 @@
+.contact-search-input {
+	border: 1px solid #e2e2e2;
+	height: 39px;
+	border-radius: 20px;
+	width: 250px;
+	background-color: #e2e2e2;
+	text-indent: 10px;
+	font-size: 14px;
+}
+.fa-search {
+	color: grey;
+	position: relative;
+	right: 30px;
+	font-size: 12px;
+}
+.btn-secondary {
+	background: linear-gradient(
+		271.28deg,
+		#ff65a3 1.28%,
+		#ff8866 99.95%
+	) !important;
+	border: 1px solid #ff65a3 !important;
+	position: relative !important;
+	left: 15px !important;
+	font-weight: bold !important;
+}
+
+input:checked {
+	background-color: #000000;
+}
+.check-box-user {
+	width: 17px;
+	height: 17px;
+}
+.checkbox-container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.checkbox-container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	width: 18px;
+	height: 18px;
+	border: 1px solid grey;
+	border-radius: 3px;
+}
+.checkbox-container input:checked ~ .checkmark {
+	background-color: "transparent";
+	width: 19px;
+	height: 19px;
+	border: 1px solid grey;
+	border-radius: 3px;
+}
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+.checkbox-container input:checked ~ .checkmark:after {
+	display: block;
+	color: "red";
+}
+.checkbox-container .checkmark:after {
+	left: 6px;
+	top: 3px;
+	width: 6px;
+	height: 10px;
+	border: solid#ff65a3;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.name-circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: #ff7387;
+}
+.view-name-wrapper {
+	position: relative;
+	top: 5px;
+	left: 10px;
+}
+.name-text {
+	font-weight: bold;
+	font-weight: bold;
+	color: white;
+	position: relative;
+	top: 2px;
+	text-transform: uppercase;
+}
+.contact-name {
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.contact-email {
+	font-size: 10px;
+	color: grey;
+}
+.contact-office {
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.contact-view {
+	background-color: #eeeeee;
+	width: 100%;
+}
+.center-container {
+	margin: auto;
+}
+.view-circle {
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	background-color: #ead74f;
+	margin: auto;
+}
+.view-name-text {
+	font-weight: bold;
+	color: black;
+	position: relative;
+	top: 11px;
+	left: 11px;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.view-name-container {
+	text-align: center;
+}
+.view-name {
+	font-size: 22px;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.view-company {
+	font-size: 14px;
+	color: gray;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.view-table {
+	padding-left: 50px;
+}
+.table thead th {
+	border-bottom: none !important;
+	border-top: none !important;
+}
+.table-dark {
+	color: grey !important;
+	background-color: #eeeeee !important;
+}
+.plus-btn {
+	border: 1px solid #ebeef0;
+	width: 16px;
+	height: 16px;
+	background-color: #ebeef0;
+	border-radius: 2px;
+	position: relative;
+	top: -5px;
+}
+.plus-icon {
+	position: relative;
+	top: -6px;
+	left: 1px;
+	font-weight: bolder;
+	color: black;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+.edit-icon {
+	position: relative;
+	left: 10px;
+	cursor: pointer;
+}
+.active-row {
+	background-color: #e7ecef;
+}
+.fa-address-book {
+	color: #ff65a3;
+	font-size: 25px;
+}
+.contact-text-container {
+	position: relative;
+	left: 40px;
+	top: -45px;
+}
+
+.contact-text {
+	font-weight: bold;
+	font-size: 24px;
+}
+.contact-subtext {
+	font-size: 12px;
+	color: gray;
+}
+.filter-text {
+	font-weight: 500;
+}
+.sort-text {
+	color: grey;
+	font-size: 13px;
+}
+.panal-wrapper {
+	margin-left: 60px;
+}
